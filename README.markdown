@@ -8,8 +8,7 @@ Requirements
 
 Examples
 ======
-The following examples show some edge cases for using the backtweets API programmaticly. For a complete list of filter options take a peek 
-at the [backtweets](http://backtweets.com/api/) API, or the [advanced backtweets search](http://backtweets.com/search).
+The following examples show some edge cases for using the backtweets API programmaticly. For a complete list of filter options take a peek at the [backtweets](http://backtweets.com/api/) API, or the [advanced backtweets search](http://backtweets.com/search).
 ------------
 
 #### Usage Example 1:
