@@ -8,7 +8,7 @@ Requirements
 
 Examples
 ------------
-The following examples show some edge cases for using the backtweets API programmaticly. For a complete list of filter options take a peek at the [backtweets](http://backtweets.com/api/) API, or the [advanced backtweets search](http://backtweets.com/search).
+The following examples show some edge cases for using the backtweets API programmaticly with the **backtweets-api-client**. For a complete list of available filter options take a peek at the [backtweets](http://backtweets.com/api/) API, or the [advanced backtweets search](http://backtweets.com/search).
 
 #### Usage Example 1:
 --------------
@@ -41,7 +41,7 @@ The following examples show some edge cases for using the backtweets API program
     $searchFilter = array('url' => 'http://framework.zend.com',
         'from_name' => 'padraicb');
 
-    $resultsFormPadraicbInJson = $this->serviceClient->search($searchFilter);
+    $resultsFromPadraicbInJson = $this->serviceClient->search($searchFilter);
 
 #### Usage Example 3:
 --------------
