@@ -1,17 +1,14 @@
 backtweets-api-client
 ======
 The **backtweets-api-client** is a the TDD way developed client to the [backtweets](http://backtweets.com/api/) API build utilizing components of the [Zend Framework](http://framework.zend.com/). The backtweets service allows you to monitor your website presence on the twittersphere.
-
 Requirements
 ------------
 * An installed version of the Zend Framework
-
 Examples
 ------------
 The following examples show some edge cases for using the backtweets API programmaticly with the **backtweets-api-client**. For a complete list of available filter options take a peek at the [backtweets](http://backtweets.com/api/) API, or the [advanced backtweets search](http://backtweets.com/search).
 
 #### Usage Example 1:
---------------
     
     <?php
     require_once 'Recordshelf/Service/Backtweets.php';
@@ -28,7 +25,6 @@ The following examples show some edge cases for using the backtweets API program
     $resultsInXml = $this->serviceClient->search($searchFilter);
 
 #### Usage Example 2:
---------------
 
     <?php
     require_once 'Recordshelf/Service/Backtweets.php';
@@ -44,7 +40,6 @@ The following examples show some edge cases for using the backtweets API program
     $resultsFromPadraicbInJson = $this->serviceClient->search($searchFilter);
 
 #### Usage Example 3:
---------------
 
     <?php
     require_once 'Recordshelf/Service/Backtweets.php';
