@@ -1,6 +1,6 @@
 backtweets-api-client
 ======
-The **backtweets-api-client** is a the TDD way developed client to the [backtweets](http://backtweets.com/api/) API build utilizing components of the [Zend Framework](http://framework.zend.com/). The backtweets service allows you to monitor your website presence on the twittersphere.
+The **backtweets-api-client** is a the TDD way developed client to the [backtweets](http://backtweets.com/api/) API utilizing several components of the [Zend Framework](http://framework.zend.com/). The backtweets service allows you to monitor your website presence on the twittersphere.
 
 Requirements
 ------------
