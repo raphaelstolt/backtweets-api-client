@@ -6,6 +6,9 @@ Requirements
 ------------
 * An installed version of the Zend Framework
 
+Examples
+------------
+
 #### Usage Example 1:
 --------------
     
