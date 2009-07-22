@@ -4,7 +4,7 @@ The **backtweets-api-client** is a the TDD way developed client to the [backtwee
 
 Requirements
 ------------
-* An installed version of the Zend Framework
+* An installed version of the Zend Framework > 1.7.8
 
 Examples
 ------------
