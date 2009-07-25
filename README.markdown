@@ -18,13 +18,13 @@ The following examples show some edge cases for using the backtweets API program
     $configuration = array('api_key' => 'YOUR_API_KEY', 
         'response_format' => 'xml');
     
-    $this->serviceClient = new Recordshelf_Service_Backtweets($configuration);
+    $service = new Recordshelf_Service_Backtweets($configuration);
     
     $searchFilter = array('url' => 'http://framework.zend.com', 
         'start' => '2009/07/01',
         'end' => '2009/07/21');
     
-    $resultsInXml = $this->serviceClient->search($searchFilter);
+    $resultsInXml = $service->search($searchFilter);
 
 #### Usage Example 2:
 
@@ -34,12 +34,12 @@ The following examples show some edge cases for using the backtweets API program
     $configuration = array('api_key' => 'YOUR_API_KEY', 
         'response_format' => 'json');
 
-    $this->serviceClient = new Recordshelf_Service_Backtweets($configuration);
+    $service = new Recordshelf_Service_Backtweets($configuration);
 
     $searchFilter = array('url' => 'http://framework.zend.com',
         'from_name' => 'padraicb');
 
-    $resultsFromPadraicbInJson = $this->serviceClient->search($searchFilter);
+    $resultsFromPadraicbInJson = $service->search($searchFilter);
 
 #### Usage Example 3:
 
@@ -49,9 +49,9 @@ The following examples show some edge cases for using the backtweets API program
     $configuration = array('api_key' => 'YOUR_API_KEY', 
         'response_format' => 'json');
 
-    $this->serviceClient = new Recordshelf_Service_Backtweets($configuration);
+    $service = new Recordshelf_Service_Backtweets($configuration);
 
     $searchFilter = array('url' => 'http://framework.zend.com',
         'since_id' => '2487455095');
 
-    $resultsSinceId2487455095AsAnArray = $this->serviceClient->search($searchFilter, true);
+    $resultsSinceId2487455095InAnArray = $service->search($searchFilter, true);
