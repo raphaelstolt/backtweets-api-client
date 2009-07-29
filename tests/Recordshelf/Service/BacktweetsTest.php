@@ -5,7 +5,8 @@ require_once 'Recordshelf/Service/Backtweets.php';
 
 class BacktweetsTest extends PHPUnit_Framework_TestCase
 {
-    const API_KEY = 'YOUR_API_KEY';
+    const API_KEY = '____YOUR_API_KEY____';
+
     protected $_serviceClient = null;
     
     protected function setUp() {
